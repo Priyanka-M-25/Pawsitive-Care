@@ -1,0 +1,148 @@
+Animal_Type,Breed,Age,Gender,Weight,Duration,Appetite_Loss,Vomiting,Diarrhea,Coughing,Labored_Breathing,Lameness,Skin_Lesions,Nasal_Discharge,Eye_Discharge,Body_Temperature,Heart_Rate,Disease_Prediction,grooming_frequency,lifetime_cost,food_cost(per_year),longevity(years),food_allergies,breed_numeric
+Dog,Labrador,4,Male,25.0,3 days,Yes,Yes,No,No,No,No,No,No,No,39.5°C,120,Parvovirus,Once a week,"$21,299 ",$466 ,12.04,"Chicken, Beef, Grains (wheat, corn)",21
+Cat,Siamese,2,Female,4.5,1 week,No,No,No,Yes,No,No,No,Yes,Yes,38.9°C,150,Upper Respiratory Infection,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Beagle,1,Male,10.0,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,130,Gastroenteritis,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Persian,5,Male,3.8,2 weeks,Yes,No,No,No,No,No,Yes,No,No,38.7°C,160,Fungal Infection,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,German Shepherd,3,Female,30.0,7 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,110,Lyme Disease,Once a week,"$17,416 ",$466 ,9.73,"Chicken, Beef, Dairy, Grains",18
+Cat,Maine Coon,2,Male,6.0,4 days,Yes,Yes,Yes,No,No,No,No,No,No,39.1°C,140,Intestinal Parasites,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Bulldog,5,Male,23.0,6 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.0°C,115,Canine Distemper,Once a week,"$13,479 ",$466 ,6.29,"Chicken, Beef, Dairy, Grains",9
+Cat,Siamese,3,Female,5.0,5 days,Yes,Yes,No,No,No,No,Yes,No,No,39.0°C,130,Panleukopenia,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Poodle,2,Female,12.0,4 days,Yes,Yes,No,Yes,No,No,No,No,No,39.4°C,115,Kennel Cough,Once a week,"$21,237 ",$466 ,11.95,"Chicken, Beef, Grains (wheat, corn)",27
+Cat,Bengal,1,Male,4.2,3 days,Yes,Yes,Yes,No,No,No,No,No,No,38.8°C,140,Panleukopenia,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Chihuahua,4,Female,3.5,2 days,Yes,Yes,Yes,Yes,No,No,No,No,No,39.1°C,130,Canine Parvovirus,Once a week,"$26,250 ",$324 ,16.5,"Beef, Chicken, Dairy, Grains",11
+Cat,Ragdoll,3,Male,5.0,10 days,Yes,Yes,No,No,No,No,Yes,No,No,38.6°C,155,Ringworm,Once a week,"$17,000",$466,13.5,"Dairy, Chicken, Fish",28
+Dog,Siberian Husky,6,Male,28.0,8 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,120,Tick-Borne Disease,Once in a few weeks,"$22,049 ",$466 ,12.58,"Fish, Beef, Grains",35
+Cat,British Shorthair,5,Female,4.8,1 week,No,No,No,Yes,Yes,No,No,Yes,Yes,39.0°C,150,Upper Respiratory Infection,Once a week,"$16,000",$466,12.5,"Beef, Fish, Grains",8
+Dog,Poodle,2,Female,8.0,4 days,Yes,No,No,Yes,No,No,No,Yes,No,39.1°C,125,Kennel Cough,Once a week,"$21,237 ",$466 ,11.95,"Chicken, Beef, Grains (wheat, corn)",27
+Cat,Bengal,3,Male,5.5,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3°C,140,Panleukopenia,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Golden Retriever,4,Male,30.0,10 days,Yes,No,No,No,No,Yes,No,No,No,39.5°C,110,Arthritis,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Cat,Russian Blue,2,Female,4.5,5 days,No,No,No,Yes,No,No,No,Yes,Yes,38.8°C,150,Feline Herpesvirus,Once a week,"$15,000",$466,17.2,"Dairy, Beef, Fish",30
+Dog,Chihuahua,1,Male,3.0,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4°C,135,Parvovirus,Once a week,"$26,250 ",$324 ,16.5,"Beef, Chicken, Dairy, Grains",11
+Cat,Ragdoll,6,Male,6.0,2 weeks,Yes,Yes,No,No,No,No,Yes,No,No,39.0°C,160,Feline Leukemia,Once a week,"$17,000",$466,13.5,"Dairy, Chicken, Fish",28
+Dog,German Shepherd,5,Male,30.0,6 days,Yes,No,No,Yes,Yes,No,No,No,No,39.6°C,125,Heartworm Disease,Once a week,"$17,416 ",$466 ,9.73,"Chicken, Beef, Dairy, Grains",18
+Cat,Maine Coon,6,Female,7.5,4 days,Yes,Yes,Yes,No,No,Yes,No,No,No,38.9°C,145,Feline Infectious Peritonitis,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Beagle,2,Female,9.0,3 days,Yes,Yes,No,No,No,Yes,Yes,No,No,39.2°C,132,Canine Distemper,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Persian,8,Male,4.6,2 days,No,Yes,No,No,No,No,Yes,No,Yes,39.0°C,140,Conjunctivitis,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,Dachshund,7,Male,5.5,2 weeks,Yes,No,No,Yes,Yes,No,No,No,No,39.5°C,120,Chronic Bronchitis,Once a week,"$20,113 ",$324 ,12.63,"Beef, Chicken, Grains",14
+Cat,Sphynx,4,Female,3.2,1 week,No,No,No,Yes,Yes,No,No,Yes,Yes,39.3°C,150,Feline Upper Respiratory Infection,daily,"$18,000",$500,13.8,"Chicken, Fish, Grains",36
+Dog,Golden Retriever,4,Female,28.0,5 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.2°C,130,Parvovirus,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Cat,British Shorthair,3,Male,5.5,4 days,Yes,No,No,Yes,Yes,No,No,No,Yes,38.7°C,145,Feline Upper Respiratory Infection,Once a week,"$16,000",$466,12.5,"Beef, Fish, Grains",8
+Dog,Bulldog,5,Male,22.0,3 days,Yes,Yes,No,No,Yes,Yes,No,No,No,39.6°C,138,Gastroenteritis,Once a week,"$13,479 ",$466 ,6.29,"Chicken, Beef, Dairy, Grains",9
+Cat,Siamese,2,Female,4.0,2 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.0°C,135,Feline Herpesvirus,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Poodle,8,Male,15.0,1 week,Yes,No,Yes,No,Yes,No,No,No,Yes,39.3°C,126,Kennel Cough,Once a week,"$21,237 ",$466 ,11.95,"Chicken, Beef, Grains (wheat, corn)",27
+Cat,Abyssinian,5,Female,4.5,3 days,No,Yes,No,Yes,No,Yes,No,Yes,No,38.5°C,142,Pancreatitis,Once a week,"$16,000",$466,12.05,"Chicken, Fish, Wheat",0
+Dog,Husky,9,Male,25.0,4 days,Yes,Yes,No,Yes,Yes,No,No,No,No,39.1°C,124,Canine Parvovirus,Once in a few weeks,"$22,049 ",$466 ,12.58,"Fish, Beef, Grains",20
+Cat,Ragdoll,4,Female,5.0,6 days,Yes,No,No,Yes,No,Yes,Yes,No,No,38.6°C,148,Feline Calicivirus,Once a week,"$17,000",$466,13.5,"Dairy, Chicken, Fish",28
+Dog,Border Collie,3,Female,17.0,8 days,Yes,No,No,Yes,No,Yes,No,Yes,Yes,39.4°C,129,Bordetella Infection,Once a week,"$20,143 ",$324 ,12.52,"Chicken, Beef, Grains",6
+Cat,Devon Rex,6,Male,4.2,9 days,Yes,No,Yes,No,Yes,No,Yes,No,No,38.9°C,146,Inflammatory Bowel Disease,Once a week,"$16,500",$466,14.05,"Dairy, Beef, Fish",16
+Dog,Chihuahua,3,Male,2.5,5 days,Yes,No,No,Yes,No,No,Yes,No,Yes,39.5°C,131,Allergic Rhinitis,Once a week,"$26,250 ",$324 ,16.5,"Beef, Chicken, Dairy, Grains",11
+Cat,Sphynx,5,Female,3.0,6 days,Yes,Yes,No,No,Yes,No,Yes,No,No,38.7°C,143,Gastroenteritis,daily,"$18,000",$500,13.8,"Chicken, Fish, Grains",36
+Dog,Dachshund,7,Female,8.0,3 days,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,39.2°C,120,Gastroenteritis,Once a week,"$20,113 ",$324 ,12.63,"Beef, Chicken, Grains",14
+Cat,Maine Coon,9,Male,6.5,8 days,Yes,Yes,Yes,No,No,No,Yes,Yes,No,39.0°C,140,Feline Renal Disease,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Labrador Retriever,11,Male,35.0,7 days,Yes,No,No,Yes,No,Yes,No,Yes,No,39.3°C,118,Canine Distemper,Once a week,"$21,299 ",$466 ,12.04,"Chicken, Beef, Grains (wheat, corn)",22
+Cat,Persian,8,Female,5.0,4 days,Yes,No,Yes,No,Yes,No,Yes,No,No,38.9°C,147,Feline Viral Rhinotracheitis,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,German Shepherd,6,Female,30.0,6 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.4°C,125,Kennel Cough,Once a week,"$17,416 ",$466 ,9.73,"Chicken, Beef, Dairy, Grains",18
+Cat,Scottish Fold,4,Male,4.8,5 days,Yes,No,No,Yes,Yes,No,Yes,No,Yes,38.7°C,137,Feline Herpesvirus,Once a week,"16,000",$466,12.5,"Dairy, Chicken, Beef",31
+Dog,Beagle,5,Male,10.0,3 days,Yes,Yes,No,No,No,Yes,No,Yes,No,39.2°C,132,Gastroenteritis,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Bengal,3,Female,4.2,6 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.1°C,145,Feline Panleukopenia,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Rottweiler,7,Female,35.0,3 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.0°C,127,Parvovirus,Once a week,"$18,886 ",$710 ,9.11,"Chicken, Beef, Dairy, Grains",29
+Cat,Siberian,2,Male,5.5,4 days,Yes,No,Yes,No,No,Yes,No,Yes,No,38.6°C,144,Feline Calicivirus,Once a week,"$18,000",$466,14.0,"Chicken, Fish, Dairy",34
+Dog,Shih Tzu,4,Female,7.0,6 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.3°C,133,Canine Flu,Daily,"$21,152 ",$324 ,13.2,"Beef, Chicken, Dairy, Grains",32
+Cat,American Curl,5,Male,3.7,3 days,Yes,Yes,No,No,Yes,Yes,No,No,No,38.8°C,148,Pancreatitis,Once a week,"$16,000",$466,11.08,"Chicken, Fish, Grains",2
+Dog,Chihuahua,9,Male,2.0,2 days,Yes,Yes,No,No,No,Yes,No,No,Yes,39.1°C,128,Gastroenteritis,Once a week,"$26,250 ",$324 ,16.5,"Beef, Chicken, Dairy, Grains",11
+Cat,Manx,4,Female,3.3,6 days,Yes,No,No,Yes,No,Yes,Yes,No,No,38.5°C,138,Feline Herpesvirus,Once a week,"$14,000",$466,12.06,"Dairy, Beef, Chicken",24
+Dog,Dalmatian,8,Female,20.0,4 days,Yes,No,Yes,No,Yes,No,No,Yes,No,39.0°C,120,Pancreatitis,Once a week,"$19,886 ",$466 ,11.27,"Beef, Chicken, Dairy",15
+Cat,Bombay,6,Male,4.0,5 days,Yes,No,No,Yes,Yes,No,Yes,No,No,38.9°C,149,Hyperthyroidism,Once a week,"$14,000",$466,12.0,"Fish, Dairy, Wheat",5
+Dog,Akita,6,Male,35.0,6 days,Yes,No,Yes,No,Yes,Yes,No,No,Yes,39.5°C,130,Canine Hepatitis,Once a week,"$20,994 ",$710 ,10.16,"Beef, Chicken, Grains",1
+Cat,British Shorthair,7,Female,4.4,4 days,Yes,No,No,Yes,No,Yes,Yes,No,No,38.6°C,142,Upper Respiratory Infection,Once a week,"$16,000",$466,12.5,"Beef, Fish, Grains",8
+Dog,Boxer,8,Female,27.0,4 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.2°C,131,Gastroenteritis,Once a week,"$15,746 ",$466 ,8.81,"Beef, Chicken, Grains",7
+Cat,Abyssinian,4,Male,4.5,5 days,Yes,No,No,Yes,Yes,No,No,Yes,No,38.8°C,140,Feline Calicivirus,Once a week,"$16,000",$466,12.05,"Chicken, Fish, Wheat",0
+Dog,Golden Retriever,5,Male,32.0,3 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.2°C,130,Gastroenteritis,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Cat,Persian,7,Female,4.1,4 days,Yes,No,No,Yes,Yes,No,Yes,No,Yes,38.9°C,142,Feline Upper Respiratory Infection,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,Dachshund,4,Female,9.0,3 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.0°C,132,Parvovirus,Once a week,"$20,113 ",$324 ,12.63,"Beef, Chicken, Grains",14
+Cat,Siamese,6,Male,4.2,4 days,Yes,No,No,Yes,No,Yes,Yes,No,Yes,38.7°C,140,Feline Calicivirus,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Corgi,5,Male,11.0,3 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.2°C,134,Pancreatitis,Once a week,"$23,978 ",$674 ,12.25,"Beef, Dairy, Grains",13
+Cat,Burmese,8,Female,4.5,6 days,Yes,No,Yes,Yes,No,Yes,No,No,Yes,38.6°C,139,Feline Viral Rhinotracheitis,Once a week,"$16,000",$466,12.02,"Fish, Dairy, Beef, Grains",10
+Dog,Poodle,7,Female,15.0,4 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.1°C,125,Canine Parvovirus,Once a week,"$21,237 ",$466 ,11.95,"Chicken, Beef, Grains (wheat, corn)",27
+Cat,Maine Coon,5,Male,5.2,3 days,Yes,Yes,No,Yes,No,No,No,Yes,No,38.8°C,140,Feline Respiratory Disease Complex,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Shih Tzu,8,Female,8.0,5 days,Yes,No,Yes,Yes,No,No,No,No,Yes,39.0°C,130,Canine Hepatitis,Daily,"$21,152 ",$324 ,13.2,"Beef, Chicken, Dairy, Grains",32
+Cat,Scottish Fold,4,Male,4.3,3 days,Yes,No,Yes,No,No,Yes,No,Yes,Yes,38.7°C,143,Feline Rhinotracheitis,Once a week,"16,000",$466,12.5,"Dairy, Chicken, Beef",31
+Dog,Beagle,6,Male,13.0,4 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.4°C,127,Kennel Cough,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Russian Blue,5,Female,4.7,5 days,Yes,Yes,No,No,No,Yes,No,Yes,Yes,38.6°C,145,Feline Respiratory Infection,Once a week,"$15,000",$466,17.2,"Dairy, Beef, Fish",30
+Dog,Golden Retriever,7,Male,30.0,6 days,Yes,No,Yes,Yes,No,No,Yes,No,No,39.5°C,118,Canine Parvovirus,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Cat,Sphynx,4,Male,5.2,5 days,Yes,Yes,Yes,No,Yes,Yes,No,No,No,39.1°C,148,Feline Infectious Peritonitis,daily,"$18,000",$500,13.8,"Chicken, Fish, Grains",36
+Dog,Rottweiler,5,Female,42.0,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.2°C,120,Canine Parvovirus,Once a week,"$18,886 ",$710 ,9.11,"Chicken, Beef, Dairy, Grains",29
+Cat,Bengal,3,Male,5.5,5 days,Yes,Yes,No,Yes,No,Yes,No,No,Yes,38.9°C,140,Feline Calicivirus,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Doberman Pinscher,6,Male,40.0,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.3°C,119,Canine Distemper,Once a week,"$18,397 ",$466 ,10.33,"Chicken, Beef, Grains",17
+Cat,Siamese,4,Female,4.2,6 days,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,38.8°C,145,Feline Leukemia Virus,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Pit Bull,4,Female,35.0,3 days,Yes,Yes,No,Yes,No,Yes,No,No,No,39.0°C,125,Leptospirosis,Once a week,"$15,000",$500,12.3,"Chicken, Beef, Grains, Dairy",26
+Cat,Persian,5,Male,5.0,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,38.9°C,148,Feline Herpesvirus,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,Cocker Spaniel,5,Female,20.0,4 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.2°C,123,Canine Leptospirosis,Once a week,"$24,330 ",$674 ,12.5,"Chicken, Beef, Grains",12
+Cat,Scottish Fold,4,Male,4.8,5 days,Yes,No,Yes,No,No,Yes,No,Yes,Yes,38.8°C,147,Feline Chlamydia,Once a week,"16,000",$466,12.5,"Dairy, Chicken, Beef",31
+Dog,German Shepherd,4,Female,45.0,5 days,Yes,No,Yes,Yes,No,Yes,Yes,No,No,39.4°C,120,Canine Parvovirus,Once a week,"$17,416 ",$466 ,9.73,"Chicken, Beef, Dairy, Grains",18
+Cat,Maine Coon,3,Male,7.5,4 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,39.1°C,148,Feline Infectious Peritonitis,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Poodle,6,Male,25.0,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.3°C,110,Canine Distemper,Once a week,"$21,237 ",$466 ,11.95,"Chicken, Beef, Grains (wheat, corn)",27
+Cat,Russian Blue,3,Female,4.8,4 days,Yes,No,Yes,No,Yes,No,Yes,Yes,No,38.9°C,145,Feline Leukemia Virus,Once a week,"$15,000",$466,17.2,"Dairy, Beef, Fish",30
+Dog,Golden Retriever,7,Male,33.0,5 days,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,39.2°C,118,Canine Leptospirosis,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Cat,Burmese,4,Male,4.3,3 days,Yes,No,No,Yes,No,Yes,Yes,No,Yes,39.0°C,150,Feline Calicivirus,Once a week,"$16,000",$466,12.02,"Fish, Dairy, Beef, Grains",10
+Dog,Bulldog,5,Female,18.0,5 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.3°C,115,Kennel Cough,Once a week,"$13,479 ",$466 ,6.29,"Chicken, Beef, Dairy, Grains",9
+Cat,Siamese,6,Male,5.5,4 days,Yes,No,No,Yes,No,No,Yes,Yes,No,39.0°C,149,Feline Infectious Peritonitis,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Beagle,4,Female,15.0,4 days,Yes,No,Yes,Yes,No,No,Yes,Yes,No,39.2°C,125,Canine Influenza,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Bengal,3,Male,5.0,5 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.0°C,140,Feline Calicivirus,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Chihuahua,3,Male,6.0,2 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,39.0°C,118,Canine Parvovirus,Once a week,"$26,250 ",$324 ,16.5,"Beef, Chicken, Dairy, Grains",11
+Cat,Scottish Fold,5,Female,4.7,6 days,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,38.9°C,150,Feline Infectious Peritonitis,Once a week,"16,000",$466,12.5,"Dairy, Chicken, Beef",31
+Dog,Rottweiler,5,Female,40.0,4 days,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,39.3°C,122,Canine Distemper,Once a week,"$18,886 ",$710 ,9.11,"Chicken, Beef, Dairy, Grains",29
+Cat,Abyssinian,3,Male,4.6,4 days,Yes,No,Yes,No,Yes,Yes,Yes,No,No,39.0°C,142,Feline Leukemia Virus,Once a week,"$16,000",$466,12.05,"Chicken, Fish, Wheat",0
+Dog,Golden Retriever,7,Male,30.0,5 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,39.0°C,130,Canine Distemper,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Cat,Persian,6,Female,4.2,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.1°C,148,Feline Coronavirus,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,Poodle,3,Female,20.0,4 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.0°C,120,Parvovirus,Once a week,"$21,237 ",$466 ,11.95,"Chicken, Beef, Grains (wheat, corn)",27
+Cat,Maine Coon,5,Male,8.5,3 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.1°C,145,Feline Upper Respiratory Infection,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,German Shepherd,4,Male,32.0,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,39.1°C,130,Canine Hepatitis,Once a week,"$17,416 ",$466 ,9.73,"Chicken, Beef, Dairy, Grains",18
+Cat,Sphynx,3,Female,5.0,4 days,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,39.0°C,155,Feline Rhinotracheitis,daily,"$18,000",$500,13.8,"Chicken, Fish, Grains",36
+Dog,Bulldog,3,Female,25.0,4 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.2°C,125,Canine Leptospirosis,Once a week,"$13,479 ",$466 ,6.29,"Chicken, Beef, Dairy, Grains",9
+Cat,Russian Blue,2,Male,6.0,3 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.0°C,145,Feline Asthma,Once a week,"$15,000",$466,17.2,"Dairy, Beef, Fish",30
+Dog,Beagle,5,Male,25.0,5 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.2°C,120,Kennel Cough,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Bengal,3,Female,6.0,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.1°C,145,Feline Herpesvirus,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Chihuahua,4,Female,5.0,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,39.1°C,110,Canine Parvovirus,Once a week,"$26,250 ",$324 ,16.5,"Beef, Chicken, Dairy, Grains",11
+Cat,Siberian,7,Male,10.2,5 days,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,39.0°C,135,Feline Asthma,Once a week,"$18,000",$466,14.0,"Chicken, Fish, Dairy",34
+Dog,Boxer,6,Female,30.0,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1°C,115,Canine Leptospirosis,Once a week,"$15,746 ",$466 ,8.81,"Beef, Chicken, Grains",7
+Cat,Abyssinian,5,Male,4.5,3 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.0°C,140,Feline Respiratory Disease Complex,Once a week,"$16,000",$466,12.05,"Chicken, Fish, Wheat",0
+Dog,Yorkshire Terrier,4,Male,8.0,3 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.2°C,100,Canine Heartworm Disease,Daily,"$20,701 ",$324 ,12.6,"Chicken, Beef, Grains",37
+Cat,Maine Coon,6,Female,10.0,4 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,39.1°C,145,Feline Leukemia,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Rottweiler,7,Male,35.0,4 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,39.3°C,110,Kennel Cough,Once a week,"$18,886 ",$710 ,9.11,"Chicken, Beef, Dairy, Grains",29
+Cat,Persian,4,Female,7.0,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1°C,125,Feline Infectious Peritonitis,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,Golden Retriever,5,Male,40.0,5 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.2°C,130,Canine Parvovirus,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Cat,Bengal,3,Female,8.0,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,39.0°C,145,Feline Panleukopenia,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Beagle,4,Female,25.0,4 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,39.2°C,120,Distemper,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Siberian,5,Male,11.0,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.2°C,140,Feline Leukemia Virus,Once a week,"$18,000",$466,14.0,"Chicken, Fish, Dairy",34
+Dog,Chihuahua,3,Male,6.0,5 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,39.3°C,135,Parvovirus,Once a week,"$21,237 ",$466 ,11.95,"Beef, Chicken, Dairy, Grains",11
+Cat,Burmese,4,Female,7.5,5 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.0°C,140,Feline Chlamydiosis,Once a week,"$16,000",$466,12.02,"Fish, Dairy, Beef, Grains",10
+Dog,Poodle,3,Female,28.0,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1°C,120,Kennel Cough,Once a week,"$21,237 ",$466 ,11.95,"Chicken, Beef, Grains (wheat, corn)",27
+Cat,Maine Coon,4,Male,10.0,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,39.0°C,140,Feline Leukemia Virus,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Beagle,4,Male,20.0,4 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,39.2°C,130,Canine Distemper,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Siamese,3,Female,7.0,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,39.0°C,140,Feline Infectious Peritonitis,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Dachshund,3,Female,12.0,4 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,39.0°C,115,Canine Parvovirus,Once a week,"$20,113 ",$324 ,12.63,"Beef, Chicken, Grains",14
+Cat,Bengal,4,Male,10.0,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,39.2°C,145,Feline Panleukopenia,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Bulldog,5,Female,22.0,5 days,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,39.3°C,120,Canine Cough,Once a week,"$13,479 ",$466 ,6.29,"Chicken, Beef, Dairy, Grains",9
+Dog,Shih Tzu,4,Male,8.0,4 days,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,39.2°C,115,Parvovirus,Daily,"$21,152 ",$324 ,13.2,"Beef, Chicken, Dairy, Grains",32
+Cat,Abyssinian,2,Female,6.0,4 days,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,39.1°C,140,Feline Infectious Peritonitis,Once a week,"$16,000",$466,12.05,"Chicken, Fish, Wheat",0
+Dog,Cocker Spaniel,2,Female,10.0,3 days,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,39.0°C,125,Distemper,Once a week,"$24,330 ",$674 ,12.5,"Chicken, Beef, Grains",12
+Cat,Ragdoll,5,Male,8.0,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,39.2°C,145,Feline Leukemia Virus,Once a week,"$17,000",$466,13.5,"Dairy, Chicken, Fish",28
+Dog,Rottweiler,3,Female,30.0,5 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,39.2°C,120,Leptospirosis,Once a week,"$18,886 ",$710 ,9.11,"Chicken, Beef, Dairy, Grains",29
+Cat,Bengal,4,Male,7.0,5 days,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,39.1°C,135,Feline Immunodeficiency Virus,Once a week,"$18,000",$466,12.04,"Fish, Chicken, Grains",4
+Dog,Chihuahua,2,Male,6.0,3 days,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,39.3°C,130,Canine Distemper,Once a week,"$21,237 ",$466 ,11.95,"Beef, Chicken, Dairy, Grains",11
+Cat,Maine Coon,6,Male,9.0,5 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,39.4°C,140,Feline Herpesvirus,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Beagle,2,Male,10.0,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.4°C,120,Canine Leptospirosis,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Persian,4,Female,7.0,5 days,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,39.0°C,130,Feline Asthma,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,Boxer,3,Female,30.0,4 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,39.3°C,120,Canine Infectious Hepatitis,Once a week,"$15,746 ",$466 ,8.81,"Beef, Chicken, Grains",7
+Cat,Maine Coon,5,Male,8.0,5 days,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,39.0°C,135,Feline Panleukopenia Virus,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Golden Retriever,5,Male,35.0,4 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.2°C,110,Canine Parvovirus,Once a week,"$21,447 ",$466 ,12.04,"Chicken, Beef, Grains, Dairy",19
+Dog,Labrador,4,Male,30.0,5 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.2°C,100,Canine Parvovirus,Once a week,"$21,299 ",$466 ,12.04,"Chicken, Beef, Grains (wheat, corn)",21
+Cat,Persian,3,Female,5.0,4 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.1°C,110,Feline Calicivirus,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,Labrador,4,Male,25.0,3 days,Yes,Yes,No,No,No,No,No,No,No,39.5°C,120,Parvovirus,Once a week,"$21,299 ",$466 ,12.04,"Chicken, Beef, Grains (wheat, corn)",21
+Cat,Siamese,2,Female,4.5,1 week,No,No,No,Yes,No,No,No,Yes,Yes,38.9°C,150,Upper Respiratory Infection,once a week,"$15,000",$466,12.04,"Fish, Dairy, Wheat",33
+Dog,Beagle,1,Male,10.0,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2°C,130,Gastroenteritis,Daily,"$19,468 ",$324 ,12.3,"Chicken, Beef, Dairy, Grains",3
+Cat,Persian,5,Male,3.8,2 weeks,Yes,No,No,No,No,No,Yes,No,No,38.7°C,160,Fungal Infection,daily,"$21,299",$500,12.04,"Beef, Dairy, Chicken",25
+Dog,German Shepherd,3,Female,30.0,7 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3°C,110,Lyme Disease,Once a week,"$17,416 ",$466 ,9.73,"Chicken, Beef, Dairy, Grains",18
+Cat,Maine Coon,2,Male,6.0,4 days,Yes,Yes,Yes,No,No,No,No,No,No,39.1°C,140,Intestinal Parasites,Twice a week,"$18,000",$500,12.04,"Fish, Dairy, Grains",23
+Dog,Bulldog,5,Male,23.0,6 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.0°C,115,Canine Distemper,Once a week,"$13,479 ",$466 ,6.29,"Chicken, Beef, Dairy, Grains",9

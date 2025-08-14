@@ -1,0 +1,1041 @@
+# SignIn Screen
+<SignInScreen>:
+  
+    FloatLayout:
+        # Background image filling the screen
+        Image:
+            source: "C:/pet_care_app/back.jpeg"
+            allow_stretch: True
+            keep_ratio: False
+            size_hint: 1, 1
+            pos_hint: {"x": 0, "y": 0}
+
+        # Title Label in the center of the screen
+        Label:
+            text: "Pet Care Assistant"
+            font_size: 60
+            color: 1, 1, 1, 1
+            halign: "center"
+            size_hint: None, None
+            size: 300, 100
+            pos_hint: {"center_x": 0.5, "center_y": 0.7}
+
+        # BoxLayout for horizontally aligning Login and Sign Up buttons
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: None, None
+            size: 450, 50  # Total width for both buttons
+            pos_hint: {"center_x": 0.5, "center_y": 0.9}
+
+            # Login Button
+            Button:
+                text: "Login"
+                size_hint: None, None
+                size: 200, 50
+                background_color: 0, 0, 0, 0
+                on_press: root.switch_to_login(self)
+
+            # Sign Up Button
+            Button:
+                text: "Sign Up"
+                size_hint: None, None
+                size: 200, 50
+                background_color: 0.2, 0.5, 0.8, 1
+                on_press: root.switch_to_sign_up(self)
+
+
+# Login Screen
+<LoginScreen>:
+    FloatLayout:
+        # Background image filling the screen
+        Image:
+            source: "C:/pet_care_app/back.jpeg"
+            allow_stretch: True
+            keep_ratio: False
+            size_hint: 1, 1
+            pos_hint: {"x": 0, "y": 0}
+
+        # Login Label at the top
+        Label:
+            text: "Login"
+            font_size: 30
+            color: 1, 1, 1, 1
+            halign: "center"
+            size_hint: None, None
+            size: 300, 100
+            pos_hint: {"center_x": 0.5, "center_y": 0.9}
+
+        # Username input field
+        TextInput:
+            id: username_input  # Adding an ID for later use in Python file
+            hint_text: "Username"
+            size_hint: None, None
+            size: 250, 40
+            pos_hint: {"center_x": 0.5, "center_y": 0.75}
+            multiline: False
+
+        # Password input field
+        TextInput:
+            id: password_input  # Adding an ID for later use in Python file
+            hint_text: "Password"
+            password: True
+            size_hint: None, None
+            size: 250, 40
+            pos_hint: {"center_x": 0.5, "center_y": 0.65}
+            multiline: False
+
+        # Login button
+        Button:
+            text: "Login"
+            size_hint: None, None
+            size: 200, 50
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+            background_color: 0.2, 0.5, 0.8, 1
+            on_press: root.login(self)
+
+        # Back button
+        Button:
+            text: "Back"
+            size_hint: None, None
+            size: 200, 50
+            pos_hint: {"center_x": 0.5, "center_y": 0.35}
+            background_color: 0.6, 0.2, 1, 1
+            on_press: root.switch_back(self)
+
+
+# Sign Up Screen
+<SignUpScreen>:
+    FloatLayout:
+        # Background image filling the screen
+        Image:
+            source: "C:/pet_care_app/back.jpeg"
+            allow_stretch: True
+            keep_ratio: False
+            size_hint: 1, 1
+            pos_hint: {"x": 0, "y": 0}
+
+        # Sign Up Label at the top
+        Label:
+            text: "Sign Up"
+            font_size: 30
+            color: 1, 1, 1, 1
+            halign: "center"
+            size_hint: None, None
+            size: 300, 100
+            pos_hint: {"center_x": 0.5, "center_y": 0.9}
+
+        # Username input field
+        TextInput:
+            id: signup_username_input  # Adding an ID for later use in Python file
+            hint_text: "Username"
+            size_hint: None, None
+            size: 250, 40
+            pos_hint: {"center_x": 0.5, "center_y": 0.75}
+            multiline: False
+
+        # Password input field
+        TextInput:
+            id: signup_password_input  # Adding an ID for later use in Python file
+            hint_text: "Password"
+            password: True
+            size_hint: None, None
+            size: 250, 40
+            pos_hint: {"center_x": 0.5, "center_y": 0.65}
+            multiline: False
+
+        # Confirm Password input field
+        TextInput:
+            id: confirm_password_input  # Adding an ID for later use in Python file
+            hint_text: "Confirm Password"
+            password: True
+            size_hint: None, None
+            size: 250, 40
+            pos_hint: {"center_x": 0.5, "center_y": 0.55}
+            multiline: False
+
+        # Sign Up button
+        Button:
+            text: "Sign Up"
+            size_hint: None, None
+            size: 200, 50
+            pos_hint: {"center_x": 0.5, "center_y": 0.4}
+            background_color: 0.2, 0.5, 0.8, 1
+            on_press: root.sign_up(self)
+
+        # Back button
+        Button:
+            text: "Back"
+            size_hint: None, None
+            size: 200, 50
+            pos_hint: {"center_x": 0.5, "center_y": 0.25}
+            background_color: 0.6, 0.2, 1, 1
+            on_press: root.switch_back(self)
+
+
+
+<PetInfoScreen>:
+    breed_input: breed_input
+    animal_type_layout: animal_type_layout
+    age_input: age_input
+    gender_input: gender_input
+    weight_input: weight_input
+    longevity_label: longevity_label  # Add label id for longevity
+    grooming_label: grooming_label    # Add label id for grooming frequency
+    lifetime_cost_label: lifetime_cost_label  # Add label id for lifetime cost
+    food_cost_label: food_cost_label  # Add label id for food cost
+    
+
+    # Layout for the screen
+    FloatLayout:
+
+        # Background image
+        Image:
+            source: "C:/pet_care_app/pet.jpeg"
+            allow_stretch: True
+            keep_ratio: False
+
+        # Title label
+        Label:
+            text: "Pet Info"
+            color: 1, 1, 1, 1
+            font_size: 60
+            bold: True
+            size_hint: None, None
+            size: root.width * 0.8, 50
+            pos_hint: {"center_x": 0.5, "top": 0.95}
+
+        # Labels for prediction results section (placed below the title)
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: None, None
+            size: root.width * 0.8, 200
+            pos_hint: {"center_x": 0.5, "top": 0.8}
+
+            Label:
+                id: longevity_label
+                text: "Predicted Longevity: N/A"
+                color: 1, 1, 1, 1
+                font_size: 32
+                bold: True
+
+            Label:
+                id: grooming_label
+                text: "Predicted Grooming Frequency: N/A"
+                color: 1, 1, 1, 1
+                font_size: 32
+                bold: True
+
+            Label:
+                id: lifetime_cost_label
+                text: "Predicted Lifetime Cost: N/A"
+                color: 1, 1, 1, 1
+                font_size: 32
+                bold: True
+
+            Label:
+                id: food_cost_label
+                text: "Predicted Food Cost: N/A"
+                color: 1, 1, 1, 1
+                font_size: 32
+                bold: True
+            
+            
+
+            Label:
+                id: common_foods_label
+                text: "Common foods"
+                color: 1, 1, 1, 1  # Set text color to black
+                font_size: '32'
+                bold: True
+
+        # Form layout for pet details
+        BoxLayout:
+            orientation: "vertical"
+            size_hint: None, None
+            size: root.width * 0.8, root.height * 0.6
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+            # Animal Type field with Toggle buttons for Dog and Cat
+            BoxLayout:
+                id: animal_type_layout
+                orientation: "horizontal"
+                size_hint: None, None
+                size: root.width * 0.8, 50
+                padding: [0, 40, 0, 20]
+
+                Label:
+                    text: "Animal Type (Dog/Cat):"
+                    color: 1, 1, 1, 1
+                    font_size: 32
+                    bold: True
+
+                ToggleButton:
+                    id: dog_button
+                    text: "Dog"
+                    size_hint: None, None
+                    size: 100, 40
+                    group: "animal_type"
+                    state: "down"
+                    on_press: root.animal_type = "Dog"
+
+                ToggleButton:
+                    id: cat_button
+                    text: "Cat"
+                    size_hint: None, None
+                    size: 100, 40
+                    group: "animal_type"
+                    on_press: root.animal_type = "Cat"
+
+            # Gender input field
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint: None, None
+                size: root.width * 0.8, 50
+                padding: [0, 40, 0, 20]
+
+                Label:
+                    text: "Gender (Male/Female):"
+                    color: 1, 1, 1, 1
+                    font_size: 32
+                    bold: True
+
+                TextInput:
+                    id: gender_input
+                    hint_text: "Enter Male or Female"
+                    size_hint: None, None
+                    size: 200, 40
+
+            # Breed input field
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint: None, None
+                size: root.width * 0.8, 50
+                padding: [0, 40, 0, 20]
+
+                Label:
+                    text: "Breed:"
+                    color: 1, 1, 1, 1
+                    font_size: 32
+                    bold: True
+
+                TextInput:
+                    id: breed_input
+                    hint_text: "Enter Breed"
+                    size_hint: None, None
+                    size: 200, 40
+
+            # Age input field
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint: None, None
+                size: root.width * 0.8, 50
+                padding: [0, 40, 0, 20]
+
+                Label:
+                    text: "Age:"
+                    color: 1, 1, 1, 1
+                    font_size: 32
+                    bold: True
+
+                TextInput:
+                    id: age_input
+                    hint_text: "Enter Age"
+                    size_hint: None, None
+                    size: 200, 40
+
+            # Weight input field
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint: None, None
+                size: root.width * 0.8, 50
+                padding: [0, 40, 0, 20]
+
+                Label:
+                    text: "Weight (kg):"
+                    color: 1, 1, 1, 1
+                    font_size: 32
+                    bold: True
+
+                TextInput:
+                    id: weight_input
+                    hint_text: "Enter Weight in kg"
+                    size_hint: None, None
+                    size: 200, 40
+
+        # Submit and Back buttons section (centered)
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: None, None
+            size: root.width * 0.8, 100
+            pos_hint: {"right": 1, "top": 0.15}
+
+            # Submit button
+            Button:
+                text: "Submit"
+                size_hint: None, None
+                size: 200, 50
+                background_color: 0.2, 0.6, 1, 1
+                on_press: root.submit_form()
+
+            # Back button
+            Button:
+                text: "Back"
+                size_hint: None, None
+                size: 100, 50
+                background_color: 0.8, 0.2, 0.2, 1
+                on_press: root.go_back() 
+
+
+            Button:
+                text: "Dieases Prediction"
+                size_hint: None, None
+                size: 300, 50
+                background_color: 0.5, 0.8, 0.2, 1
+                on_press: root.go_to_diseases() 
+
+            
+
+
+
+
+
+<DiseasesScreen>:
+    breed_input: breed_input
+    animal_type_layout: animal_type_layout
+    age_input: age_input
+    gender_input: gender_input
+    weight_input: weight_input
+    
+    appetite_loss_input: appetite_loss_input
+    vomiting_input: vomiting_input
+    diarrhea_input: diarrhea_input
+    coughing_input: coughing_input
+    labored_breathing_input: labored_breathing_input
+    lameness_input: lameness_input
+    skin_lesions_input: skin_lesions_input
+    nasal_discharge_input: nasal_discharge_input
+    eye_discharge_input: eye_discharge_input
+    body_temperature_input: body_temperature_input
+    disease_prediction_result: disease_prediction_result
+    # Background Image
+    FloatLayout:
+        Image:
+            source: "C:/pet_care_app/diseases1.jpeg"
+            allow_stretch: True
+            keep_ratio: False
+            size_hint: 1, 1
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+        ScrollView:
+            do_scroll_x: False
+            do_scroll_y: True
+
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                padding: dp(10)
+                spacing: dp(5)
+
+                Label:
+                    text: "Disease Input Form"
+                    size_hint_y: None
+                    height: dp(35)
+                    font_size: dp(24)
+                    halign: "center"
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    bold: True
+
+                # Animal Type Selection
+                BoxLayout:
+                    id: animal_type_layout
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Animal Type:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: cat_button
+                        text: "Cat"
+                        group: "animal_type"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: dog_button
+                        text: "Dog"
+                        group: "animal_type"
+                        size_hint_x: 0.2
+
+                # Breed Input
+                BoxLayout:
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Breed:"
+                        size_hint_x: 0.5
+                    TextInput:
+                        id: breed_input
+                        multiline: False
+                        size_hint_x: 0.5
+                        hint_text: "Enter Breed"
+                        background_color: 0.9, 0.9, 0.9, 1
+                        font_size: 14
+                        placeholder_text: "Enter Breed"
+                        placeholder_font_size: 18
+
+                # Age Input
+                BoxLayout:
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Age:"
+                        size_hint_x: 0.5
+                    TextInput:
+                        id: age_input
+                        multiline: False
+                        size_hint_x: 0.5
+                        hint_text: "Enter Age"
+                        background_color: 0.9, 0.9, 0.9, 1
+                        font_size: 14
+                        placeholder_text: "Enter Age"
+                        placeholder_font_size: 18
+
+                # Gender Input
+                BoxLayout:
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Gender:"
+                        size_hint_x: 0.5
+                    Spinner:
+                        id: gender_input
+                        text: "Select Gender"
+                        values: ["Male", "Female"]
+                        size_hint_x: 0.5
+                        background_color: 0.9, 0.9, 0.9, 1
+                        font_size: 14
+
+                # Weight Input
+                BoxLayout:
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Weight (kg):"
+                        size_hint_x: 0.5
+                    TextInput:
+                        id: weight_input
+                        multiline: False
+                        size_hint_x: 0.5
+                        hint_text: "Enter Weight in kg"
+                        background_color: 0.9, 0.9, 0.9, 1
+                        font_size: 14
+                        placeholder_text: "Enter Weight"
+                        placeholder_font_size: 18
+
+                # Disease Inputs
+                Label:
+                    text: "Disease Symptoms:"
+                    size_hint_y: None
+                    height: dp(35)
+                    font_size: dp(20)
+                    color: 1, 0.2, 0.2, 1
+                    halign: "center"
+                    pos_hint: {"center_x": 0.5}
+
+                # Appetite Loss
+                BoxLayout:
+                    id: appetite_loss_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Appetite Loss:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: appetite_loss_yes
+                        text: "Yes"
+                        group: "appetite_loss"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: appetite_loss_no
+                        text: "No"
+                        group: "appetite_loss"
+                        size_hint_x: 0.2
+
+                # Vomiting
+                BoxLayout:
+                    id: vomiting_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Vomiting:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: vomiting_yes
+                        text: "Yes"
+                        group: "vomiting"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: vomiting_no
+                        text: "No"
+                        group: "vomiting"
+                        size_hint_x: 0.2
+
+                # Diarrhea
+                BoxLayout:
+                    id: diarrhea_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Diarrhea:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: diarrhea_yes
+                        text: "Yes"
+                        group: "diarrhea"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: diarrhea_no
+                        text: "No"
+                        group: "diarrhea"
+                        size_hint_x: 0.2
+
+                # Coughing
+                BoxLayout:
+                    id: coughing_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Coughing:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: coughing_yes
+                        text: "Yes"
+                        group: "coughing"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: coughing_no
+                        text: "No"
+                        group: "coughing"
+                        size_hint_x: 0.2
+
+                # Labored Breathing
+                BoxLayout:
+                    id: labored_breathing_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Labored Breathing:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: labored_breathing_yes
+                        text: "Yes"
+                        group: "labored_breathing"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: labored_breathing_no
+                        text: "No"
+                        group: "labored_breathing"
+                        size_hint_x: 0.2
+
+                # Lameness
+                BoxLayout:
+                    id: lameness_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Lameness:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: lameness_yes
+                        text: "Yes"
+                        group: "lameness"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: lameness_no
+                        text: "No"
+                        group: "lameness"
+                        size_hint_x: 0.2
+
+                # Skin Lesions
+                BoxLayout:
+                    id: skin_lesions_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Skin Lesions:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: skin_lesions_yes
+                        text: "Yes"
+                        group: "skin_lesions"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: skin_lesions_no
+                        text: "No"
+                        group: "skin_lesions"
+                        size_hint_x: 0.2
+
+                # Nasal Discharge
+                BoxLayout:
+                    id: nasal_discharge_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Nasal Discharge:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: nasal_discharge_yes
+                        text: "Yes"
+                        group: "nasal_discharge"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: nasal_discharge_no
+                        text: "No"
+                        group: "nasal_discharge"
+                        size_hint_x: 0.2
+
+                # Eye Discharge
+                BoxLayout:
+                    id: eye_discharge_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Eye Discharge:"
+                        size_hint_x: 0.6
+                    ToggleButton:
+                        id: eye_discharge_yes
+                        text: "Yes"
+                        group: "eye_discharge"
+                        size_hint_x: 0.2
+                    ToggleButton:
+                        id: eye_discharge_no
+                        text: "No"
+                        group: "eye_discharge"
+                        size_hint_x: 0.2
+
+                # Body Temperature
+                BoxLayout:
+                    id: body_temperature_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Body Temperature (°C):"
+                        size_hint_x: 0.6
+                    TextInput:
+                        id: body_temp_input
+                        multiline: False
+                        size_hint_x: 0.3
+                        hint_text: "Enter Temperature"
+                        background_color: 0.9, 0.9, 0.9, 1
+                        font_size: 14
+
+                BoxLayout:
+                    id: heart_rate_input
+                    orientation: "horizontal"
+                    size_hint_y: None
+                    height: dp(40)
+                    spacing: dp(4)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.3
+                    Label:
+                        text: "Heart Rate (bpm):"
+                        size_hint_x: 0.6
+                    TextInput:
+                        id: heart_rate_input
+                        multiline: False
+                        size_hint_x: 0.3
+                        hint_text: "Enter Heart Rate"
+                        background_color: 0.9, 0.9, 0.9, 1
+                        font_size: 14
+                
+
+                # Submit and Back buttons
+                Button:
+                    text: "Submit"
+                    size_hint_y: None
+                    height: dp(50)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.2
+                    background_color: 0.2, 0.6, 1, 1
+                    on_release: root.submit_form()
+
+                Button:
+                    text: "Back"
+                    size_hint_y: None
+                    height: dp(50)
+                    pos_hint: {"center_x": 0.5}
+                    size_hint_x: 0.2
+                    background_color: 0.8, 0.2, 0.2, 1
+                    on_release: app.root.current = "pet_info"
+
+                
+
+                Label:
+                    text: "Predicted Diseases:"
+                    size_hint_y: None
+                    height: dp(35)
+                    font_size: dp(16)
+                    color: 1, 0.2, 0.2, 1
+                    halign: "center"
+                    pos_hint: {"center_x": 0.5}
+                    bold: True  # Making the text bold
+
+# The disease result will be displayed here (dynamic content)
+                Label:
+                    id: disease_prediction_result
+                    text: "No prediction yet"
+                    size_hint_y: None
+                    height: dp(50)
+                    font_size: dp(18)
+                    bold: True
+                    color: 0, 0, 1, 1  # Blue color for the result text
+                    halign: "center"
+                    pos_hint: {"center_x": 0.5}
+
+
+                Button:
+                    
+                    size_hint_y: None
+                    height: dp(50)
+                    size_hint_x: None  # Set size_hint_x to None to specify a fixed width
+                    width: dp(80)  # Set a fixed width (adjust as needed)
+                    background_normal: 'chatbot.jpeg'  # Replace with your image path
+                    pos_hint: {"right": 1}
+                    on_release: app.root.current = "chatbot"
+
+
+<ChatbotScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        # Wrapping the entire layout to use 80% of the screen width and center it
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: 0.8, 1  # 80% width, 100% height
+            pos_hint: {'center_x': 0.5}  # Center the layout
+
+            # Title label
+            Label:
+                text: "Chatbot"
+                font_size: '24sp'
+                bold: True
+                size_hint_y: None
+                height: 40
+
+            # ScrollView for chat messages
+            ScrollView:
+                BoxLayout:
+                    id: chat_area
+                    orientation: 'vertical'
+                    size_hint_y: None
+                    height: self.minimum_height
+                    spacing: 5
+                    padding: [5, 5]
+
+            # Input field and buttons
+            BoxLayout:
+                size_hint_y: None
+                height: 50
+                spacing: 5
+
+                Button:
+                    text: "Back"
+                    size_hint_x: None
+                    width: 100
+                    on_press: root.go_back()  # Calls the go_back function to navigate back
+
+                TextInput:
+                    id: user_input
+                    hint_text: "Type your message here..."
+                    multiline: False
+
+                Button:
+                    text: "Send"
+                    size_hint_x: None
+                    width: 100
+                    on_press: root.send_message()  # Calls the send_message function
+
+
+
+
+
+
+
+<FindYourPetMatchScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: 0.8, 1
+            pos_hint: {'center_x': 0.5}
+
+            Label:
+                text: "Find Your Pet Match"
+                font_size: '24sp'
+                bold: True
+                size_hint_y: None
+                height: 40
+
+            ScrollView:
+                do_scroll_x: False
+                do_scroll_y: True
+
+                BoxLayout:
+                    orientation: 'vertical'
+                    size_hint_y: None
+                    height: self.minimum_height
+                    spacing: 5
+                    padding: [5, 5]
+
+                
+
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        size_hint_y: None
+                        height: 50
+                        Label:
+                            text: "Animal Type:"
+                            font_size: '18sp'
+                        ToggleButton:
+                            id: dog_button
+                            text: "Dog"
+                            size_hint_x: None
+                            width: 100
+                            group: "animal_type"
+                            state: "down"
+                        ToggleButton:
+                            id: cat_button
+                            text: "Cat"
+                            size_hint_x: None
+                            width: 100
+                            group: "animal_type"
+
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        size_hint_y: None
+                        height: 50
+                        Label:
+                            text: "Height (inches):"
+                            font_size: '18sp'
+                        TextInput:
+                            id: height_input
+                            hint_text: "Enter pet height"
+                            input_filter: 'float'
+                            size_hint_x: 0.7
+                            height: 40
+
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        size_hint_y: None
+                        height: 50
+                        Label:
+                            text: "Space Requirement:"
+                            font_size: '18sp'
+                        Spinner:
+                            id: space_requirement_spinner
+                            text: "Select Space"
+                            values: ["Small(100-250sqt)", "Medium(250-400sqt)", "Large(400-600sqt)"]
+                            size_hint_x: 0.7
+                            height: 40
+
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        size_hint_y: None
+                        height: 50
+                        Label:
+                            text: "Stay In:"
+                            font_size: '18sp'
+                        Spinner:
+                            id: stay_in_spinner
+                            text: "Select Stay In"
+                            values: ["Indoor", "Outdoor", "Both"]
+                            size_hint_x: 0.7
+                            height: 40
+
+                    
+
+            Button:
+                text: "Submit"
+                size_hint_y: None
+                height: 50
+                on_press: root.submit_form()
+
+            Button:
+                text: "Back"
+                size_hint_y: None
+                height: 50
+                background_color: [1, 0.2, 0.2, 1]
+                on_press: root.go_back()
+
+            Label:
+                id: predicted_breed_label
+                text: "Predicted Breed: Not yet predicted"
+                font_size: '20sp'
+                color: (1, 1, 1, 1)
+                size_hint_y: None
+                height: 50
